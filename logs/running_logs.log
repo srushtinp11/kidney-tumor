@@ -299,3 +299,26 @@ x==========x]
 [2025-05-12 18:09:40,254: INFO: model_eval: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2025-05-13 17:16:24,926: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.31.153:8080]
+[2025-05-13 17:16:24,931: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-05-13 17:16:24,934: INFO: _internal:  * Restarting with stat]
+[2025-05-13 17:16:31,677: WARNING: _internal:  * Debugger is active!]
+[2025-05-13 17:16:31,677: INFO: _internal:  * Debugger PIN: 523-794-469]
+[2025-05-13 17:17:55,792: INFO: _internal: 127.0.0.1 - - [13/May/2025 17:17:55] "GET / HTTP/1.1" 200 -]
+[2025-05-13 17:25:33,035: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-13 17:25:34,052: INFO: _internal: 127.0.0.1 - - [13/May/2025 17:25:34] "POST /predict HTTP/1.1" 200 -]
+[2025-05-13 17:28:50,665: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-13 17:28:51,242: INFO: _internal: 127.0.0.1 - - [13/May/2025 17:28:51] "POST /predict HTTP/1.1" 200 -]
+[2025-05-13 17:28:52,715: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-13 17:28:53,299: INFO: _internal: 127.0.0.1 - - [13/May/2025 17:28:53] "POST /predict HTTP/1.1" 200 -]
+[2025-05-13 17:29:04,882: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-13 17:29:05,398: INFO: _internal: 127.0.0.1 - - [13/May/2025 17:29:05] "POST /predict HTTP/1.1" 200 -]
+[2025-05-13 17:29:06,625: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-13 17:29:07,148: WARNING: polymorphic_function: 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001A2C3383420> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2025-05-13 17:29:07,182: INFO: _internal: 127.0.0.1 - - [13/May/2025 17:29:07] "POST /predict HTTP/1.1" 200 -]
+[2025-05-13 17:29:37,649: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-13 17:29:38,148: WARNING: polymorphic_function: 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001A2D00F00E0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2025-05-13 17:29:38,181: INFO: _internal: 127.0.0.1 - - [13/May/2025 17:29:38] "POST /predict HTTP/1.1" 200 -]
