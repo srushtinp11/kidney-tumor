@@ -23,7 +23,7 @@ git clone https://github.com/srushtinp11/kidney-tumor
 ## step-4 requirements
 
 pip install -r requirements.txt
-
+# mlflow==2.11.0 remove it from requirements.txt
 
 
 #   AWS-CICD-Deployment-with-Github-Actions
@@ -59,7 +59,7 @@ pip install -r requirements.txt
 
     
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI:170533023526.dkr.ecr.ap-south-1.amazonaws.com/kidneyrep
+    - Save the URI:783764576135.dkr.ecr.ap-south-1.amazonaws.com/kidneyrepo
 
     
 ## 4. Create EC2 machine (Ubuntu) 
