@@ -67,7 +67,7 @@ pip install -r requirements.txt
 ## 5. Open EC2 and Install docker in EC2 Machine:
     
     how to 
-    #optinal
+    #optinal ok
 
     sudo apt-get update -y
 
